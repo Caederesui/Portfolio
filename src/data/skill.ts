@@ -107,13 +107,13 @@ export const skills: Skill[] = [
 		color: '#00C58E',
 	},
 	{
-		id: 'ionic',
-		icon: '<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none"><g fill="#448AFF" clip-path="url(#a)"><path d="M12.5 18.13a5.63 5.63 0 1 0 0-11.26 5.63 5.63 0 0 0 0 11.25ZM20.63 6.88a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/><path d="M23.57 6.7a3.75 3.75 0 0 1-2.13 1.33 10 10 0 1 1-4.47-4.47c.19-.86.67-1.6 1.33-2.13a12.5 12.5 0 1 0 5.26 5.26Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h25v25H0z"/></clipPath></defs></svg>',
-		title: 'Ionic',
+		id: 'nodejs',
+		icon: '<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.094 0.158498C12.9141 0.0546636 12.7101 0 12.5024 0C12.2947 0 12.0907 0.0546636 11.9108 0.158498L2.11157 5.81338C1.93154 5.91718 1.78203 6.06659 1.6781 6.24654C1.57416 6.4265 1.51947 6.63066 1.51953 6.83848V18.1569C1.51953 18.5797 1.74512 18.9703 2.11118 19.182L11.9104 24.8414C12.0904 24.9453 12.2945 25 12.5024 25C12.7102 25 12.9143 24.9453 13.0943 24.8414L22.8913 19.182C23.0711 19.078 23.2205 18.9285 23.3243 18.7486C23.4281 18.5687 23.4828 18.3646 23.4829 18.1569V6.83804C23.4829 6.41524 23.2573 6.02471 22.8909 5.81333L13.094 0.158498Z" fill="url(#paint0_linear_40003009_38690)"/><path d="M22.9092 5.81245L13.0825 0.157568C12.9856 0.101562 12.8817 0.0614746 12.775 0.0351562L1.76172 18.8749C1.8562 19.0148 1.94814 19.1094 2.07202 19.1811L11.9154 24.8405C12.1942 25.0015 12.5255 25.0391 12.8296 24.9551L23.1727 6.01519C23.094 5.93652 23.0054 5.86837 22.9092 5.81245Z" fill="url(#paint1_linear_40003009_38690)"/><path d="M22.9152 19.1835C23.2007 19.0183 23.4029 18.7289 23.4595 18.3894L12.7754 0.0376015C12.4941 -0.0184044 12.1427 0.013871 11.8896 0.160014L2.12891 5.78086L12.6732 24.99C12.8237 24.9695 12.971 24.9209 13.106 24.843L22.9152 19.1835Z" fill="url(#paint2_linear_40003009_38690)"/><defs><linearGradient id="paint0_linear_40003009_38690" x1="16.4854" y1="4.36983" x2="7.63252" y2="22.4297" gradientUnits="userSpaceOnUse"><stop stop-color="#3F873F"/><stop offset="0.33" stop-color="#3F8B3D"/><stop offset="0.637" stop-color="#3E9638"/><stop offset="0.934" stop-color="#3DA92E"/><stop offset="1" stop-color="#3DAE2B"/></linearGradient><linearGradient id="paint1_linear_40003009_38690" x1="11.0248" y1="13.8084" x2="35.8305" y2="-4.51943" gradientUnits="userSpaceOnUse"><stop offset="0.138" stop-color="#3F873F"/><stop offset="0.402" stop-color="#52A044"/><stop offset="0.713" stop-color="#64B749"/><stop offset="0.908" stop-color="#6ABF4B"/></linearGradient><linearGradient id="paint2_linear_40003009_38690" x1="1.17373" y1="12.5009" x2="23.7932" y2="12.5009" gradientUnits="userSpaceOnUse"><stop offset="0.092" stop-color="#6ABF4B"/><stop offset="0.287" stop-color="#64B749"/><stop offset="0.598" stop-color="#52A044"/><stop offset="0.862" stop-color="#3F873F"/></linearGradient></defs></svg>',
+		title: 'Node.js',
 		description:
-			'Фреймворк для создания кроссплатформенных мобильных и веб-приложений.',
-		level: 0,
-		color: '#3880FF',
+			'Платформа для разработки, доставки и запуска приложений в контейнерах.',
+		level: 5,
+		color: '#57a645',
 	},
 	{
 		id: 'docker',

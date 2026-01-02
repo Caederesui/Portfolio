@@ -8,7 +8,6 @@ import { skills } from '../src/data/skill';
 	<Block>
 		<h3>Навыки</h3>
 		<div class="flex gap-2 flex-wrap">
-			<SkillBubble id="figma" />
 			<SkillBubble
 				v-for="skill in skills"
 				:key="skill.id"

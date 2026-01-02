@@ -30,6 +30,16 @@ export const projects: Project[] = [
 		technologies: ['react', 'typescript', 'sass', 'vite'],
 	},
 	{
+		id: 'uptime',
+		title: 'Uptime',
+		description: 'Простой сервис для мониторинга доступности сайтов через HTTP-запросы с использованием API globalping.io.',
+		fullDescription:
+			'Разработан для демонстрации моих навыков веб-разработки, включая Vue.js, TypeScript, маршрутизацию и управление состоянием.',
+		imageUrl: '',
+		link: 'https://agoncharenko.dev',
+		technologies: ['react', 'typescript', 'nodejs', 'vite', 'sass'],
+	},
+	{
 		id: 'agoncharenko',
 		title: 'AGoncharenko',
 		description: 'Сайт-партфолио, который вы сейчас просматриваете.',

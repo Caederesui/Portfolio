@@ -25,13 +25,13 @@ const props = defineProps({
 <template>
 	<NuxtLink
 		:to="to"
-		class="flex items-center font-medium text-gray-600 text-lg hover:text-blue-600 transition duration-200 group"
+		class="flex items-center font-medium text-text-primary text-lg hover:text-blue-600 transition duration-200 group"
 	>
 		<Svg
 			v-if="iconName"
 			:icon="iconName"
 			:size="Number(iconSize)"
-			class="mr-1 fill-gray-600 group-hover:fill-blue-600 transition duration-200"
+			class="mr-1 fill-text-primary group-hover:fill-blue-600 transition duration-200"
 		></Svg>
 		<span>{{ text }}</span>
 	</NuxtLink>

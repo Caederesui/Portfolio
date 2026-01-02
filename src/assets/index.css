@@ -2,24 +2,41 @@
 
 html {
 	font-size: 16px;
+	color: var(--color-text-primary);
+}
+
+@theme {
+	--color-background: #181818;
+	--color-block: #282723;
+	--color-text-primary: #F2F2EE;
+	--color-text-minor: #D5D5D5;
 }
 
 h1 {
-	font-size: var(--text-3xl);
+	font-size: var(--text-4xl);
 	font-weight: var(--font-weight-bold);
+	color: var(--color-text-primary);
 }
 
 h2 {
 	font-size: var(--text-3xl);
 	font-weight: var(--font-weight-bold);
+	color: var(--color-text-primary);
+
 }
 
 h3 {
-	font-size: var(--text-3xl);
+	font-size: var(--text-2xl);
 	font-weight: var(--font-weight-semibold);
+	color: var(--color-text-primary);
 }
 
 h4 {
-	font-size: var(--text-3xl);
+	font-size: var(--text-xl);
 	font-weight: var(--font-weight-medium);
+	color: var(--color-text-primary);
+}
+
+p {
+	color: var(--color-text-minor);
 }

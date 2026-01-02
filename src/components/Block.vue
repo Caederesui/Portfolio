@@ -6,9 +6,9 @@ const props = defineProps<{
 }>();
 
 const blockClasses = computed(() => {
-	const baseClasses = 'bg-gray-300 rounded-2xl shadow-lg p-10';
+	const baseClasses = 'bg-block rounded-2xl shadow-lg p-10';
 	if (props.isLink) {
-		return `${baseClasses} cursor-pointer transition duration-300 ease-in-out hover:scale-101`;
+		return `${baseClasses} cursor-pointer transition duration-300 ease-in-out hover:bg-block`;
 	}
 	return baseClasses;
 });

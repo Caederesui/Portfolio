@@ -4,18 +4,18 @@ import NavButton from './NavButton.vue';
 </script>
 
 <template>
-	<header class="bg-white shadow-md sticky top-0 z-10">
+	<header class="bg-block shadow-2xl sticky top-0 z-10">
 		<div
 			class="container mx-auto px-8 py-3 flex justify-between items-center"
 		>
 			<NuxtLink
 				to="/"
-				class="flex text-2xl items-center font-bold text-gray-800 gap-1 hover:text-blue-600 transition duration-200 group"
+				class="flex text-2xl items-center font-bold gap-1 hover:text-blue-600 transition duration-200 group"
 			>
 				<Svg
 					icon="logo"
 					:size="24"
-					svgClass="fill-gray-800 group-hover:fill-blue-600 transition duration-200"
+					svgClass="fill-text-primary group-hover:fill-blue-600 transition duration-200"
 				></Svg>
 				AGoncharenko
 			</NuxtLink>

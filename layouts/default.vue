@@ -5,7 +5,7 @@ import HeaderBlock from '../src/components/HeaderBlock.vue';
 <template>
 	<div class="flex flex-col min-h-screen bg-background">
 		<HeaderBlock />
-		<main class="container mx-auto p-3 flex-grow mb-12">
+		<main class="container mx-auto p-3 flex-grow mb-12 mt-4">
 			<slot />
 		</main>
 	</div>

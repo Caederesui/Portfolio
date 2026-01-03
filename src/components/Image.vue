@@ -31,11 +31,9 @@ watch(
 		<div
 			v-else
 			:class="props.class"
-			class="mb-3 w-full h-48 bg-gray-200 flex items-center justify-center rounded-lg shadow-md"
+			class="mb-3 w-full h-48 bg-gray-500 flex items-center justify-center rounded-lg"
 		>
-			<p class="text-gray-500">
-				Изображение загружается или не найдено...
-			</p>
+			<p>Изображение загружается или не найдено...</p>
 		</div>
 	</div>
 </template>

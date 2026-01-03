@@ -29,7 +29,7 @@ import NavButton from './NavButton.vue';
 		</div>
 	</header>
 
-	<nav class="fixed bottom-0 left-0 right-0 bg-white shadow-lg lg:hidden">
+	<nav class="fixed bottom-0 left-0 right-0 bg-block shadow-2xl lg:hidden">
 		<div
 			class="container mx-auto px-4 py-2 flex justify-around items-center"
 		>

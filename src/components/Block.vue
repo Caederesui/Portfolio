@@ -6,7 +6,7 @@ const props = defineProps<{
 }>();
 
 const blockClasses = computed(() => {
-	const baseClasses = 'bg-block rounded-2xl shadow-lg p-10';
+	const baseClasses = 'bg-block rounded-2xl shadow-2xl p-10';
 	if (props.isLink) {
 		return `${baseClasses} cursor-pointer transition duration-300 ease-in-out hover:bg-block`;
 	}
